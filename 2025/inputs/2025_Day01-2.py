@@ -3,7 +3,7 @@ import math
 from itertools import *
 from collections import *
 
-import time
+import time # 5:20
 start_time = time.time()
 
 input = open("inputs/2025_01.txt", "r+").read().splitlines()

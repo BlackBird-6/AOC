@@ -6,11 +6,11 @@ from collections import *
 import time
 start_time = time.time()
 
-input = open("inputs/2025_XX.txt", "r+").read().splitlines()
+f = open("inputs/2025_XX.txt", "r+").read().splitlines()
 
 total = 0
 
-for l in input:
+for l in f:
     print(l)
 
 print(f"Time elapsed: {time.time() - start_time}s")
